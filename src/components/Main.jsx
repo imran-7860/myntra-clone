@@ -108,9 +108,9 @@ const Main = () => {
           <p className="font-semibold">Original Price: {item.original_price}</p>
           <p className="font-semibold">Current Price: {item.current_price}</p>
           <p className="font-semibold">Rating: {item.rating.stars} stars ({item.rating.count} reviews)</p>
-          <div className="flex gap-2 ml-10 mt-2 ">
-          <button className="bg-green-400 p-2 rounded-3xl">Add(+)</button>
-          <button className="bg-red-400 p-2 rounded-3xl">Delete(-)</button>
+          <div className="flex gap-2  mt-2 ">
+          <button className="bg-green-400 px-4 rounded-lg p-2">Add(+)</button>
+          <button className="bg-red-400 px-4 rounded-lg p-2">Delete(-)</button>
           </div>
         </li>
       ))}
